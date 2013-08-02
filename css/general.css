@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+
+
+
+body{
+	background-color:#FFFFFF;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+.container{
+	
+	width:100%;
+	min-height:600px;
+	
+	
+
+	
+	
+
+}
+
+.logo{
+	background:url('../img/logo2.png') no-repeat;
+	
+	width:300px;
+	height:inherit;
+}
+.header-container{
+	width:100%;
+	background-color:#F0F0F0;
+	height:96px;
+}
+
+.header{
+	width:960px;
+	height:inherit;
+
+}
+
+.navbar-container{
+	width:100%;
+	height:50px;
+	background-color:#3D0258;
+	
+}
+.navbar{
+	width:960px;
+	
+
+}
+
+.content-container{
+	width:100%;
+	min-height:50px;
+	background-color:#FFFFFF;
+}
+
+ul.navbar-button{
+	display:table;
+	
+}
+
+ul.navbar-button > li{
+	display:table-cell;
+	min-width:1em;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	height: 50px;
+
+}
+ul.navbar-button > li > a{
+	display:table-cell;
+	color:white;
+	text-decoration:none;
+	width:inherit;
+	height:50px;
+	padding-right:15px;
+	padding-left:15px;
+	font-size:15px;
+	font-weight:bold;
+}
+ul.navbar-button li a:hover{
+	color:black;
+	cursor:pointer;
+	background-color:#F0F0F0;
+}
+
+.content{
+	width:960px;
+	min-height:100px;
+}
+
+.center{margin-left:auto;
+	margin-right:auto;}
+.left{float:left;padding-left:20px;}
+.right{float:right;padding-right:20px;}
+*/
+.logo{
+	background:url('../img/logo2.png') no-repeat;
+	
+	width:300px;
+	height:inherit;
+	
+}
+.hr-sidebar{
+	margin: 5px 0;
+border: 0;
+border-top: 1px solid #660033;
+border-bottom: 1px solid #660033;
+}
+
+
+
+.logo-iid-container{
+	margin-left:auto;
+	margin-right:auto;
+	max-width:550px;
+	max-height:350px;
+}
+.header-container{
+	width:100%;
+	background-color:#F0F0F0;
+	height:96px;
+}
+
+.header{
+	width:900px;
+	height:inherit;
+	margin: 0 auto;
+	padding-left: 50px;
+
+}
+.navbar-container-custom{
+	background-color:#3D0258;
+}
+
+
+ .navbar {
+        margin: 0 auto;
+        max-width: 900px;
+      }
+.maincontent-container {
+        margin: 0 auto;
+        max-width: 1000px;
+		padding-top:30px;
+      }
+body {
+padding-top: 0px;
+}
+
+.navbar-inner{
+	background-color:#3D0258 !important;
+}
+
+.nav-header{
+	color:#660033;
+	font-size:15px;
+}
+
+.sidebar-nav-custom{
+	
+}
+.nav-list > li > a, .nav-list .nav-header {
+margin-right: 0px;
+margin-left: 0px;
+}
+
+.navbar-inverse .nav .active>a, .navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus {
+color: #000000 !important;
+background-color: #FFFFFF !important;
+}
